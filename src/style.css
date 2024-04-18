@@ -4,6 +4,10 @@
   --background-color: lightgoldenrodyellow;
 }
 
+body {
+  padding: 10px;
+}
+
 .container-index {
   margin: 60px auto;
 }
@@ -19,6 +23,7 @@
   font-weight: 500;
   font-size: 19px;
   margin-top: 70px;
+  margin-bottom: 90px;
 }
 
 h1 {
@@ -104,4 +109,34 @@ h2 a {
 
 #contact-me {
   margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+  .about-me-large-heading {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .images {
+    display: none;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h1,
+  p {
+    text-align: center;
+  }
+
+  h1 {
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  .launch-2 {
+    text-align: center;
+  }
+  .links-container {
+    margin-top: 55px;
+    margin-bottom: 90px;
+  }
 }
