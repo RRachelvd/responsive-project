@@ -1,0 +1,107 @@
+:root {
+  --primary-color: crimson;
+  --box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  --background-color: lightgoldenrodyellow;
+}
+
+.container-index {
+  margin: 60px auto;
+}
+
+.about-page-container {
+  margin-top: 22px;
+  margin-bottom: 100px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 19px;
+  margin-top: 70px;
+}
+
+h1 {
+  font-size: 46px;
+  line-height: 1.5;
+}
+
+h1 div {
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+p {
+  margin: 12px;
+  font-size: 18px;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
+h2 a {
+  font-weight: 300;
+}
+
+.contact {
+  margin: 0 20px;
+  padding: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+
+.about {
+  margin: 0 20px;
+  padding: 20px;
+  background-color: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.launch {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+
+.about a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.about-me-large-heading {
+  font-size: 95px;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.about-me-subtitle {
+  margin: 0 auto 30px auto;
+  font-size: 26px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 850px;
+}
+
+#contact-me {
+  margin-bottom: 8px;
+}
